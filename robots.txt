@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /404.html
 Allow: /
-Sitemap: https://milesonerd.github.io/sitemap.xml 
+Sitemap: https://closure-next.github.io/sitemap.xml 
