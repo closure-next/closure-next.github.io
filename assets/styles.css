@@ -42,6 +42,12 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero {
     background-color: #001d3d;
     color: #fefefe;
@@ -58,6 +64,29 @@ nav ul li a:hover {
     text-align: center;
     padding: 20px 0;
     border-top: 1px solid #ddd;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #002b5c; 
+}
+
+a:active {
+    color: #ffffff;
 }
 
 .column ul {
@@ -79,6 +108,10 @@ nav ul li a:hover {
         width: 100%;
     }
 
+    header {
+        text-align: center;
+    }
+    
     nav ul li {
         margin: 5px 0;
     }
