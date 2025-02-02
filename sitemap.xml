@@ -1,91 +1,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://closure-next.github.io/</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0000</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/history</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8000</priority>
-  </url>
-  <url>
-    <loc>https://closure-next.github.io/contribute</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7500</priority>
   </url>
   <url>
-    <loc>https://closure-next.github.io/showcase</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <loc>https://closure-next.github.io/contribute</loc>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.6000</priority>
+    <priority>0.7000</priority>
+  </url>
+  <url>
+    <loc>https://closure-next.github.io/showcase</loc>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7000</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/faq</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7000</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/contact</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8000</priority>
+    <priority>0.7500</priority>
   </url>
   <url>
-      <loc>https://closure-next.github.io/policies/privacy</loc>
-      <lastmod>2025-02-02T21:32:26+00:00</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>0.6400</priority>
+    <loc>https://closure-next.github.io/policies/privacy</loc>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6400</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/accessibility</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6400</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/bot</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6400</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/cookies</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6400</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/terms</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.6000</priority>
+    <priority>0.6400</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/service</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.6000</priority>
+    <priority>0.6400</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/legal</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6000</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/policies/contact</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6000</priority>
   </url>
   <url>
     <loc>https://closure-next.github.io/blog/</loc>
-    <lastmod>2025-02-02T21:32:26+00:00</lastmod>
+    <lastmod>2025-02-02T21:44:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8000</priority>
   </url>
