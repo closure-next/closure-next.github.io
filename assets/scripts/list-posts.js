@@ -2,7 +2,7 @@ const converter = new showdown.Converter();
 
 const username = 'closure-next';
 const repo = 'closure-next.github.io';
-const folder = '/blog/posts';
+const folder = 'posts';
 const branch = 'main';
 
 const postList = document.getElementById('post-list');
