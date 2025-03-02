@@ -101,29 +101,21 @@ a:active {
         align-items: center;
     }
 
-    nav ul {
-        display: none; 
-        flex-direction: column;
-        align-items: center;
+    .column {
         width: 100%;
+        padding: 10px;
     }
 
     header {
         text-align: center;
     }
-    
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
     nav ul li {
         margin: 5px 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-        font-size: 30px;
-        color: #fff;
-    }
-
-    .hamburger.active + nav ul {
-        display: flex;
     }
 }
