@@ -1,6 +1,7 @@
 {
   "name": "Closure Next",
   "short_name": "Closure Next",
+  "description": "Closure Library rewritten in TypeScript",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#002b5c",
