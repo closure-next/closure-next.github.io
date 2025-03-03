@@ -1,5 +1,9 @@
-const cacheName = 'closure-next-cache-v1'; 
+const cacheName = 'closure-next-cache-v1';
+const offlineFallbackPage = "offline.html";
 
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+
+// Install event listener
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(cacheName).then((cache) => {
@@ -74,15 +78,57 @@ self.addEventListener('install', (event) => {
         '/policies/terms.html',
         '/policies/update',
         '/policies/update.html',
+        '/offline',
+        '/offline.html',
+        offlineFallbackPage,
       ]);
     })
   );
 });
 
+// Fetch event listener with network-first strategy and offline fallback
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request);
-    })
-  );
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      (async () => {
+        try {
+          const preloadResp = await event.preloadResponse;
+          if (preloadResp) {
+            return preloadResp;
+          }
+          const networkResp = await fetch(event.request);
+          return networkResp;
+        } catch (error) {
+          const cache = await caches.open(cacheName);
+          const cachedResp = await cache.match(offlineFallbackPage);
+          return cachedResp;
+        }
+      })()
+    );
+  } else {
+    event.respondWith(
+      caches.match(event.request).then((cachedResponse) => {
+        return cachedResponse || fetch(event.request);
+      })
+    );
+  }
 });
+
+// Skip waiting for new service worker version
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
+});
+
+// Workbox setup for navigation preload and stale-while-revalidate
+if (workbox.navigationPreload.isSupported()) {
+  workbox.navigationPreload.enable();
+}
+
+workbox.routing.registerRoute(
+  new RegExp('/*'),
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: cacheName
+  })
+);
