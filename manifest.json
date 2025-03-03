@@ -22,7 +22,7 @@
   "short_name": "Closure Next",
   "id": "Closure Next",
   "description": "Closure Library rewritten in TypeScript",
-  "start_url": "/",
+  "start_url": "https://closure-next.github.io/"
   "lang": "en",
   "display_override": [
     "standalone",
