@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /404.html
+Disallow: /offline.html
 Allow: /
 Sitemap: https://closure-next.github.io/sitemap.xml 
