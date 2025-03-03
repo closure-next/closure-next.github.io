@@ -23,7 +23,7 @@
   "short_name": "Closure Next",
   "id": "Closure Next",
   "description": "Closure Library rewritten in TypeScript",
-  "start_url": "https://closure-next.github.io/"
+  "start_url": "https://closure-next.github.io/",
   "lang": "en",
   "display_override": [
     "standalone",
@@ -35,17 +35,17 @@
   "categories": [
     "productivity",
     "utilities"
-  ]
-    "screenshots": [
+  ],
+  "screenshots": [
     {
-      "src": "screenshot-phone.png",  
-      "sizes": "360x640",             
+      "src": "screenshot-phone.png",
+      "sizes": "360x640",
       "type": "image/png",
-      "form_factor": "phone"          
+      "form_factor": "phone"
     },
     {
-      "src": "screenshot-desktop.png", 
-      "sizes": "1280x800",            
+      "src": "screenshot-desktop.png",
+      "sizes": "1280x800",
       "type": "image/png",
       "form_factor": "desktop"
     }
