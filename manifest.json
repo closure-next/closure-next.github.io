@@ -7,17 +7,17 @@
   "background_color": "#002b5c",
   "icons": [
     {
-      "src": "https://milesonerd.github.io/img/android-chrome-192x192.png",
+      "src": "https://closure-next.github.io/assets/img/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://milesonerd.github.io/img/android-chrome-512x512.png",
+      "src": "https://closure-next.github.io/assets/img/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "https://milesonerd.github.io/img/apple-touch-icon.png",
+      "src": "https://closure-next.github.io/assets/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "180x180"
     }
