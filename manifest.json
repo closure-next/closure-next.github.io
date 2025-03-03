@@ -1,0 +1,25 @@
+{
+  "name": "Closure Next",
+  "short_name": "Closure Next",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#002b5c",
+  "background_color": "#002b5c",
+  "icons": [
+    {
+      "src": "https://milesonerd.github.io/img/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://milesonerd.github.io/img/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://milesonerd.github.io/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}
