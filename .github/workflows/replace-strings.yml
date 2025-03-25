@@ -1,0 +1,30 @@
+name: Replace strings in HTML files
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: sudo apt-get install sed
+
+      - name: Replace strings in HTML files
+        run: |
+          find . -type f -name "*.html" -exec sed -i 's|https://closure-next.github.io|/|g' {} \;
+          find . -type f -name "*.html" -exec sed -i 's|assets|/assets|g' {} \;
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add .
+          git commit -m "Replace URLs in HTML files"
+          git push
